@@ -12,12 +12,12 @@ package pacote;
  
 public class Teste {
 
+	  public String t = "adfasdsdsdxcazczxcas";
 	/**
 	 * Construtor
 	 **/
 	public Teste (){
-	  String t = "adfasdsdsdas";
-	  
+	  String x= "adasdsad";
 	  
 	}
 

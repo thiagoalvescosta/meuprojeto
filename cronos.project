@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project name="Git 4" encoding="UTF-8">
+    <resources>
+        <resource mimetype="folder/src" folder="true" fullPath="src"/>
+    </resources>
+    <references/>
+</project>
