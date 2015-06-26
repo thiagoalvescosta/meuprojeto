@@ -16,7 +16,8 @@ public class Teste {
 	 * Construtor
 	 **/
 	public Teste (){
-	  String t = "adfasdas";
+	  String t = "adfasdsdsdas";
+	  
 	  
 	}
 
