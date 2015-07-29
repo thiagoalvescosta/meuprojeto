@@ -8,10 +8,10 @@
     <version>1.0-SNAPSHOT</version>
     <url>http://techne.com.br</url>
     <build>
-        <sourceDirectory>src3</sourceDirectory>
+        <sourceDirectory>src2</sourceDirectory>
         <resources>
             <resource>
-                <directory>src2</directory>
+                <directory>src3</directory>
             </resource>
         </resources>
         <plugins>
@@ -59,8 +59,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.cronospass.resource mimetype="folder/src">src2</project.cronospass.resource>
         <project.cronospass.resource encoding="ISO-8859-1" mimetype="text/plain">teste2.txt</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/src">src3</project.cronospass.resource>
-        <project.cronospass.resource mimetype="folder/src">src2</project.cronospass.resource>
     </properties>
 </project>
