@@ -9,7 +9,11 @@
     <url>http://techne.com.br</url>
     <build>
         <sourceDirectory>src2</sourceDirectory>
-        <resources/>
+        <resources>
+            <resource>
+                <directory>src3</directory>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.cloudfoundry</groupId>
@@ -55,8 +59,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <project.cronospass.resource encoding="ISO-8859-1" mimetype="text/plain">teste2.txt</project.cronospass.resource>
-        <project.cronospass.resource mimetype="folder/libs">lib</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/src">src2</project.cronospass.resource>
+        <project.cronospass.resource encoding="ISO-8859-1" mimetype="text/plain">teste2.txt</project.cronospass.resource>
+        <project.cronospass.resource mimetype="folder/src">src3</project.cronospass.resource>
     </properties>
 </project>
