@@ -9,7 +9,17 @@
     <url>http://techne.com.br</url>
     <build>
         <sourceDirectory>src</sourceDirectory>
-        <resources/>
+        <resources>
+            <resource>
+                <directory>src</directory>
+                <includes>
+                    <include>**</include>
+                </includes>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.cloudfoundry</groupId>
