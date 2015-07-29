@@ -45,11 +45,18 @@
             <url>http://artifactory.cronospaas.com.br/artifactory/ext-release-local</url>
         </repository>
     </repositories>
-    <dependencies/>
+    <dependencies>
+        <dependency>
+            <groupId>org.eclipse.jgit</groupId>
+            <artifactId>org.eclipse.jgit</artifactId>
+            <version>4.0.1.201506240215-r</version>
+        </dependency>
+    </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.cronospass.resource encoding="ISO-8859-1" mimetype="text/plain">teste2.txt</project.cronospass.resource>
+        <project.cronospass.resource mimetype="folder/libs">lib</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/src">src2</project.cronospass.resource>
     </properties>
 </project>
