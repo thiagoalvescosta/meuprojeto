@@ -1,4 +1,0 @@
-//adasd
-public class Passa {
-
-}
