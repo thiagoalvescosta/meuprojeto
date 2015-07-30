@@ -2,7 +2,7 @@ package pacote;
 
 
 /**
- * Classe que representa ...
+ * Classe que representa ADDed
  * 
  * @author Usuário de Teste
  * @version 1.0
