@@ -1,6 +1,5 @@
 public interface Bicycle  {
 
-    //  wheel revolutions per minute
     void changeCadence(int newValue);
 
     void changeGear(int newValue);
