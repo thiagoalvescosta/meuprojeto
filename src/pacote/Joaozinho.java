@@ -3,7 +3,7 @@ package pacote;
 public class Joaozinho {
 
 	/**
-	 * Construtor 2
+	 * Construtor 12
 	 **/
 	public Joaozinho (){
 	}
