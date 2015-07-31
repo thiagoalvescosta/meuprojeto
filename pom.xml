@@ -33,5 +33,7 @@
         <project.reporting.outputEncoding:project.reporting.outputEncoding xmlns="http://maven.apache.org/POM/4.0.0" xmlns:project.reporting.outputEncoding="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">UTF-8</project.reporting.outputEncoding:project.reporting.outputEncoding>
         <project.build.sourceEncoding:project.build.sourceEncoding xmlns="http://maven.apache.org/POM/4.0.0" xmlns:project.build.sourceEncoding="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">UTF-8</project.build.sourceEncoding:project.build.sourceEncoding>
         <project.reporting.outputEncoding:project.reporting.outputEncoding xmlns="http://maven.apache.org/POM/4.0.0" xmlns:project.reporting.outputEncoding="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">UTF-8</project.reporting.outputEncoding:project.reporting.outputEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 </project>
