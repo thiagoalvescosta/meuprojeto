@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.sonatype.mavenbook.simple</groupId>
     <artifactId>simple</artifactId>
@@ -8,18 +7,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <version>1.0-SNAPSHOT</version>
     <url>http://maven.apache.org</url>
     <build>
-        <sourceDirectory>src</sourceDirectory>
-        <resources>
-            <resource>
-                <directory>src</directory>
-                <includes>
-                    <include>**</include>
-                </includes>
-                <excludes>
-                    <exclude>**/*.java</exclude>
-                </excludes>
-            </resource>
-        </resources>
+        <resources/>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -43,8 +31,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <properties>
         <project.build.sourceEncoding:project.build.sourceEncoding xmlns="http://maven.apache.org/POM/4.0.0" xmlns:project.build.sourceEncoding="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">UTF-8</project.build.sourceEncoding:project.build.sourceEncoding>
         <project.reporting.outputEncoding:project.reporting.outputEncoding xmlns="http://maven.apache.org/POM/4.0.0" xmlns:project.reporting.outputEncoding="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">UTF-8</project.reporting.outputEncoding:project.reporting.outputEncoding>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <project.cronospass.resource mimetype="folder/src">src</project.cronospass.resource>
+        <project.build.sourceEncoding:project.build.sourceEncoding xmlns="http://maven.apache.org/POM/4.0.0" xmlns:project.build.sourceEncoding="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">UTF-8</project.build.sourceEncoding:project.build.sourceEncoding>
+        <project.reporting.outputEncoding:project.reporting.outputEncoding xmlns="http://maven.apache.org/POM/4.0.0" xmlns:project.reporting.outputEncoding="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">UTF-8</project.reporting.outputEncoding:project.reporting.outputEncoding>
     </properties>
 </project>
