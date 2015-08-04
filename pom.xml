@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project>
-    <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.1.0</modelVersion>
     <groupId>org.sonatype.mavenbook.simple</groupId>
     <artifactId>simple</artifactId>
     <name>simple</name>
