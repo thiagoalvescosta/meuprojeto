@@ -2,7 +2,7 @@
 <project>
     <modelVersion>4.1.0</modelVersion>
     <groupId>org.sonatype.mavenbook.simple</groupId>
-    <artifactId>simple</artifactId>
+    <artifactId>simpleasd</artifactId>
     <name>simple</name>
     <version>1.0</version>
     <url>http://maven.apache.org</url>
